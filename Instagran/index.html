@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagran</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="imagnes">
+    <img src="img/celular.png" class="imgcelular">
+    <img src="img/insta1.png" class="img-insta">
+    <img src="img/insta2.png" class="img-insta img-2">
+  </div>
+  <div class="container">
+    <img src="./img/LOGOZtechT.png">
+    <input placeholder="Telefone, nome, usuario ou email" type="text ">
+    <input placeholder="senha" type="password">
+    <button class="my-button">Entrar</button>
+    <a class="facebook">Entrar com facebook</a>
+    <a class="esqueceu-senha">Esqueceu a senha</a>
+
+
+
+  </div>
+</body>
+
+<script>
+  let imagem = document.querySelector(".img-2")
+
+  setInterval(() => {
+    if (imagem.style.opacity == 0) {
+      imagem.style.opacity = 1
+    } else {
+      imagem.style.opacity = 0
+    }
+
+  }, 3000)
+</script>
+
+</html>
