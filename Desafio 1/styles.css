@@ -1,0 +1,123 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif; 
+  
+
+}
+
+
+header {
+    margin: 44px 0 144px 76px;
+    
+}  
+
+    img {
+        font-weight: 568px;
+        line-height: 500px;
+        margin-left: 125px;
+        display: inline-block;
+    }
+    
+
+
+
+.menu-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color:  #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header{
+    background:  #665AE1; 
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+main {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 900px;
+    font-size: 100px;
+    line-height: 122px;
+    color:  #515151;
+}
+
+h2 {
+    font-weight: 500px;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+   
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px; 
+    margin-bottom: 65px;
+   
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+      }
+   
+      
+
+ img  {
+    position: static;
+      max-width: 100%;
+    }
+
+main {
+
+    position: static;
+    max-width: 100%;
+    color: #515151;
+
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+}
