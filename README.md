@@ -22,5 +22,7 @@ mim pergunto porque não entrei antes para setor de programação, mais eu paro 
 o melhor programador. Hoje estudo na escola DevClub onde nos ajuda a ser o melhor dentro da programação!
 
 # projeto para assistência tecnica
+https://ztechinforcelulares.netlify.app/
+<a href="https://ztechinforcelulares.netlify.app/"><img src="https://iili.io/JKWAl1f.md.png" alt="JKWAl1f.md.png" border="0"></a>
 
-<a href="https://freeimage.host/i/JKWAl1f"><img src="https://iili.io/JKWAl1f.md.png" alt="JKWAl1f.md.png" border="0"></a>
+<a href="https://ztechinforcelulares.netlify.app/">
