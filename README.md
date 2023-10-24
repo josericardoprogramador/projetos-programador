@@ -21,6 +21,6 @@ Hoje eu sou técnico em informática e celulares, contudo estou em carreira de t
 mim pergunto porque não entrei antes para setor de programação, mais eu paro e penso, a hora é agora e estou muito comprometido e focado no que quero, que é ser 
 o melhor programador. Hoje estudo na escola DevClub onde nos ajuda a ser o melhor dentro da programação!
 
-# projetos-curso-devclub
+# projeto para assistência tecnica
 
 <a href="https://freeimage.host/i/JKWAl1f"><img src="https://iili.io/JKWAl1f.md.png" alt="JKWAl1f.md.png" border="0"></a>
