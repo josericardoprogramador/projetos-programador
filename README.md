@@ -23,4 +23,4 @@ o melhor programador. Hoje estudo na escola DevClub onde nos ajuda a ser o melho
 
 # projetos-curso-devclub
 
-<img src="[https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white](https://ibb.co/cvvDPPR)https://ibb.co/cvvDPPR](https://ibb.co/cvvDPPR)https://ibb.co/cvvDPPR" alt="PROJETO"  /> 
+<img src="https://freeimage.host/i/JKWAl1f" alt="PROJETO"  /> 
