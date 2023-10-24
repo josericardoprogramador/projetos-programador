@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500;600;700&family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    
+  }
+
+body {
+    background-color: #ccc;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: #FF8C00;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    height: 45px;
+     z-index: 100;
+
+}
+
+.sociais {
+    width: 2 0%;
+
+}
+
+.logo img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menu nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative
+    
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(46deg, darkblue, azure);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+
+
+}
+
+
+.menu nav a:hover::after {
+    width: 20px;
+}
+
+
+.sociais button {
+    width: 45px;
+    width: 45px;
+    background-image: linear-gradient(46deg, white, navy);
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+.sociais button i {
+    font-size: 20px;
+
+}
+
+/* toda estrutura da pagina */
+.conteudo {
+    width: 90%;
+    /* largura */
+    margin: auto;
+    display: flex;
+    /* permite que alteremos a posição dos elementos na tela */
+    justify-content: space-between;
+    /* permite justificar / alinhar os componentes na horizontal */
+    align-items: center;
+    /* permite alinhar os componentes na vertical*/
+
+}
+
+.nomeempresa {
+    font-size: 30px;
+    
+}
+
+.caixa-texto {
+    width: 600px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 1000;
+    color: var(animation-fill-mode:);
+}
+
+.menu h1 {
+    font-size: 3.2rem;
+    color: var(--second-color)
+    
+}
+
+h2 {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+
+
+span {
+    color: #2530cc;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 10px 10px 10px #259dcc;   
+}
+
+
+
+p {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+}
+
+button {
+    background: rgb(18, 18, 230);
+    /* background -> fundo do elemento */
+    color: white;
+    /* cor do texto */
+    border-radius: 40px;
+    /* arredondamento da borda */
+    border: none;
+    /* borda do elemento */
+    cursor: pointer;
+    /* cursor do mouse */
+    padding: 10px;
+    /* espaçamento interno */
+    margin-top: 20px;
+}
+
+
+.logo {
+    width: 100px;
+    margin: auto;
+    margin-left: 50px;
+    right: 10px;
+    
+        
+}
+
+.logo-lateral {
+    
+        width: 100px;
+        margin: auto;
+        margin-left: 70px;
+        right: 30px;
+}
+
+.starbucks {
+    width: 300px;
+}
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: #4a48bf;
+    top: 0;
+    left: 0;
+    clip-path: circle(500px at right 600px);
+    z-index: -1;
+}
+
+
+.flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.botao-flutuante {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01300d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.button-main {
+    background: #4a48bf;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media screen and (max-width: 992px) {
+    header {
+      display: none;
+      font-size: 8px;
+           font-weight:400;
+    }
+
+    .menu {
+            display: none;
+        }    
+    .flutuante {
+            display: none;
+        }
+        p {
+            font-size: 12px;
+           font-weight:400;
+           line-height: 30px;
+           padding: 10px 0;
+           
+        }
+
+        .button-main {
+          
+            padding: 10px 20px;
+        }
+
+}
